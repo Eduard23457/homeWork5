@@ -24,7 +24,7 @@ public class Main {
             int year = 2024;
             if (year > 1584)
                 System.out.println("Год должен быть больше чем 1584");
-            if (year % 4 == 0 && year % 100 != 0 || year %  400 == 0) {
+            if ( year > 1584 && year % 4 == 0 && year % 100 != 0 || year %  400 == 0) {
                 System.out.println("Год " + year + " високостный");
             } else{
                 System.out.println("Год " + year + " не является високостным");
